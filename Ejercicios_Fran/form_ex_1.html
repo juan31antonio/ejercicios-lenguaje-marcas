@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Rellenar</legend>
+            <label for="inglés">Inglés</label>
+            <input type="radio" id="inglés"name="idioma"> 
+            <br>
+            <br>
+            <label for="alemán">Alemán</label>
+            <input type="radio" id="alemán" name="idioma">
+            <br>
+            <br>
+            <label for="francés">Francés</label>
+            <input type="radio" id="francés" name="idioma">
+            <br>
+            <br>
+            <select id="instituto">
+                <option value="estudiante">Estudiante</option>
+                <option value="profesor">Profesor</option>
+                <option value="personal">Personal Laboral</option>
+            </select>
+            <br>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+            <br>
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellido">
+        </fieldset>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <select multiple size="4">
+                <option value="dam">LMSGI</option>
+                <option value="dam">ENDES</option>
+                <option value="dam">FOL</option>
+                <option value="dam">PROG</option>
+                <option value="dam">BD</option>
+                <option value="dam">SI</option>
+            </select>
+            <br>
+            <input type="checkbox">Acepto los términos y condiciones
+            <br>
+            <input type="checkbox">Quiero recibir correos basura
+            <br>
+            <br>
+            <label for="fecha">Elija una fecha:</label>
+            <input type="date" id="fecha">
+            <br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
